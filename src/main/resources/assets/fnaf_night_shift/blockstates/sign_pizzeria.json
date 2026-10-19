@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fnaf_night_shift:block/sign_pizzeria"
+    },
+    "facing=east": {
+      "model": "fnaf_night_shift:block/sign_pizzeria",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fnaf_night_shift:block/sign_pizzeria",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fnaf_night_shift:block/sign_pizzeria",
+      "y": 270
+    }
+  }
+}

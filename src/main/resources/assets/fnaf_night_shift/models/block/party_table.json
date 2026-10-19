@@ -1,0 +1,182 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "fnaf_night_shift:block/party_table_top",
+    "top": "fnaf_night_shift:block/party_table_top",
+    "side": "fnaf_night_shift:block/party_table_side",
+    "leg": "fnaf_night_shift:block/metal_plating"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        12,
+        0
+      ],
+      "to": [
+        16,
+        13,
+        16
+      ],
+      "faces": {
+        "up": {
+          "texture": "#top"
+        },
+        "down": {
+          "texture": "#side"
+        },
+        "north": {
+          "texture": "#side",
+          "uv": [
+            0,
+            0,
+            16,
+            1
+          ]
+        },
+        "south": {
+          "texture": "#side",
+          "uv": [
+            0,
+            0,
+            16,
+            1
+          ]
+        },
+        "east": {
+          "texture": "#side",
+          "uv": [
+            0,
+            0,
+            16,
+            1
+          ]
+        },
+        "west": {
+          "texture": "#side",
+          "uv": [
+            0,
+            0,
+            16,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        6,
+        0,
+        6
+      ],
+      "to": [
+        10,
+        12,
+        10
+      ],
+      "faces": {
+        "north": {
+          "texture": "#leg",
+          "uv": [
+            6,
+            2,
+            10,
+            14
+          ]
+        },
+        "south": {
+          "texture": "#leg",
+          "uv": [
+            6,
+            2,
+            10,
+            14
+          ]
+        },
+        "east": {
+          "texture": "#leg",
+          "uv": [
+            6,
+            2,
+            10,
+            14
+          ]
+        },
+        "west": {
+          "texture": "#leg",
+          "uv": [
+            6,
+            2,
+            10,
+            14
+          ]
+        },
+        "down": {
+          "texture": "#leg",
+          "uv": [
+            6,
+            6,
+            10,
+            10
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        3,
+        0,
+        3
+      ],
+      "to": [
+        13,
+        1,
+        13
+      ],
+      "faces": {
+        "up": {
+          "texture": "#leg"
+        },
+        "down": {
+          "texture": "#leg"
+        },
+        "north": {
+          "texture": "#leg",
+          "uv": [
+            3,
+            0,
+            13,
+            1
+          ]
+        },
+        "south": {
+          "texture": "#leg",
+          "uv": [
+            3,
+            0,
+            13,
+            1
+          ]
+        },
+        "east": {
+          "texture": "#leg",
+          "uv": [
+            3,
+            0,
+            13,
+            1
+          ]
+        },
+        "west": {
+          "texture": "#leg",
+          "uv": [
+            3,
+            0,
+            13,
+            1
+          ]
+        }
+      }
+    }
+  ]
+}

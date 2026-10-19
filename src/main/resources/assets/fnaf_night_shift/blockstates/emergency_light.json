@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fnaf_night_shift:block/emergency_light"
+    },
+    "facing=east": {
+      "model": "fnaf_night_shift:block/emergency_light",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fnaf_night_shift:block/emergency_light",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fnaf_night_shift:block/emergency_light",
+      "y": 270
+    }
+  }
+}

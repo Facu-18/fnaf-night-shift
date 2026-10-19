@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "faulty=true,lit=true": {
+      "model": "fnaf_night_shift:block/flickering_light_on"
+    },
+    "faulty=false,lit=true": {
+      "model": "fnaf_night_shift:block/flickering_light_on"
+    },
+    "faulty=true,lit=false": {
+      "model": "fnaf_night_shift:block/flickering_light_off"
+    },
+    "faulty=false,lit=false": {
+      "model": "fnaf_night_shift:block/flickering_light_off"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+	"schemaVersion": 1,
+	"id": "fnaf_night_shift_devclient",
+	"version": "1.0.0",
+	"name": "FNAF: NIGHT SHIFT - herramienta de capturas (desarrollo)",
+	"environment": "client",
+	"entrypoints": {
+		"client": ["com.fnaf.nightshift.dev.DevScreenshotClient"]
+	},
+	"depends": {
+		"fnaf_night_shift": "*"
+	}
+}

@@ -1,0 +1,3 @@
+Sonidos propiedad de ScottGames, proporcionados para uso personal en este proyecto.
+Origen: repositorios PyNightsAtFredbears y fnaf-jumpscare-extension (ver sus CREDITS/README).
+No redistribuir. Para compilar sin ellos: gradlew build -PnoFnafSounds

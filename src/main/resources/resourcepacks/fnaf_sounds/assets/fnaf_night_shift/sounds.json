@@ -1,0 +1,37 @@
+{
+  "ambient.fnaf": {
+    "replace": true,
+    "sounds": [
+      "fnaf_night_shift:fnaf/ambience"
+    ],
+    "subtitle": "subtitles.fnaf_night_shift.ambient.fnaf"
+  },
+  "camera.switch": {
+    "replace": true,
+    "sounds": [
+      "fnaf_night_shift:fnaf/camera_switch"
+    ],
+    "subtitle": "subtitles.fnaf_night_shift.camera.switch"
+  },
+  "entity.animatronic.jumpscare": {
+    "replace": true,
+    "sounds": [
+      "fnaf_night_shift:fnaf/jumpscare"
+    ],
+    "subtitle": "subtitles.fnaf_night_shift.entity.animatronic.jumpscare"
+  },
+  "entity.foxy.jumpscare": {
+    "replace": true,
+    "sounds": [
+      "fnaf_night_shift:fnaf/jumpscare_foxy"
+    ],
+    "subtitle": "subtitles.fnaf_night_shift.entity.foxy.jumpscare"
+  },
+  "entity.golden_freddy.jumpscare": {
+    "replace": true,
+    "sounds": [
+      "fnaf_night_shift:fnaf/jumpscare_golden"
+    ],
+    "subtitle": "subtitles.fnaf_night_shift.entity.golden_freddy.jumpscare"
+  }
+}

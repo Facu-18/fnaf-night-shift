@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "zone=general": {
+      "model": "fnaf_night_shift:block/patrol_node_general"
+    },
+    "zone=pizzeria": {
+      "model": "fnaf_night_shift:block/patrol_node_pizzeria"
+    },
+    "zone=service": {
+      "model": "fnaf_night_shift:block/patrol_node_service"
+    },
+    "zone=technical": {
+      "model": "fnaf_night_shift:block/patrol_node_technical"
+    },
+    "zone=tunnel": {
+      "model": "fnaf_night_shift:block/patrol_node_tunnel"
+    }
+  }
+}

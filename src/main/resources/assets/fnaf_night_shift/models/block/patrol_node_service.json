@@ -1,0 +1,78 @@
+{
+  "parent": "minecraft:block/block",
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "fnaf_night_shift:block/patrol_node_service",
+    "top": "fnaf_night_shift:block/patrol_node_service"
+  },
+  "elements": [
+    {
+      "from": [
+        1,
+        0,
+        1
+      ],
+      "to": [
+        15,
+        1,
+        15
+      ],
+      "faces": {
+        "up": {
+          "texture": "#top",
+          "uv": [
+            1,
+            1,
+            15,
+            15
+          ]
+        },
+        "down": {
+          "texture": "#top",
+          "uv": [
+            1,
+            1,
+            15,
+            15
+          ]
+        },
+        "north": {
+          "texture": "#top",
+          "uv": [
+            1,
+            7,
+            15,
+            8
+          ]
+        },
+        "south": {
+          "texture": "#top",
+          "uv": [
+            1,
+            7,
+            15,
+            8
+          ]
+        },
+        "east": {
+          "texture": "#top",
+          "uv": [
+            1,
+            7,
+            15,
+            8
+          ]
+        },
+        "west": {
+          "texture": "#top",
+          "uv": [
+            1,
+            7,
+            15,
+            8
+          ]
+        }
+      }
+    }
+  ]
+}

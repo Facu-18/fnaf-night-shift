@@ -1,0 +1,133 @@
+{
+  "parent": "minecraft:block/block",
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "fnaf_night_shift:block/flickering_light_off",
+    "lamp": "fnaf_night_shift:block/flickering_light_off",
+    "case": "fnaf_night_shift:block/ceiling_panel"
+  },
+  "elements": [
+    {
+      "from": [
+        3,
+        14,
+        3
+      ],
+      "to": [
+        13,
+        16,
+        13
+      ],
+      "faces": {
+        "down": {
+          "texture": "#lamp",
+          "uv": [
+            3,
+            3,
+            13,
+            13
+          ]
+        },
+        "up": {
+          "texture": "#case"
+        },
+        "north": {
+          "texture": "#case",
+          "uv": [
+            3,
+            0,
+            13,
+            2
+          ]
+        },
+        "south": {
+          "texture": "#case",
+          "uv": [
+            3,
+            0,
+            13,
+            2
+          ]
+        },
+        "east": {
+          "texture": "#case",
+          "uv": [
+            3,
+            0,
+            13,
+            2
+          ]
+        },
+        "west": {
+          "texture": "#case",
+          "uv": [
+            3,
+            0,
+            13,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        4,
+        13,
+        4
+      ],
+      "to": [
+        12,
+        14,
+        12
+      ],
+      "shade": false,
+      "faces": {
+        "down": {
+          "texture": "#lamp",
+          "uv": [
+            4,
+            4,
+            12,
+            12
+          ]
+        },
+        "north": {
+          "texture": "#lamp",
+          "uv": [
+            4,
+            7,
+            12,
+            8
+          ]
+        },
+        "south": {
+          "texture": "#lamp",
+          "uv": [
+            4,
+            7,
+            12,
+            8
+          ]
+        },
+        "east": {
+          "texture": "#lamp",
+          "uv": [
+            4,
+            7,
+            12,
+            8
+          ]
+        },
+        "west": {
+          "texture": "#lamp",
+          "uv": [
+            4,
+            7,
+            12,
+            8
+          ]
+        }
+      }
+    }
+  ]
+}

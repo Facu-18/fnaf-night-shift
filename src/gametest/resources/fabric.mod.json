@@ -1,0 +1,14 @@
+{
+	"schemaVersion": 1,
+	"id": "fnaf_night_shift_tests",
+	"version": "1.0.0",
+	"name": "FNAF: NIGHT SHIFT - pruebas",
+	"environment": "*",
+	"entrypoints": {
+		"fabric-gametest": ["com.fnaf.nightshift.test.FnafGameTests", "com.fnaf.nightshift.test.FnafUpdateGameTests", "com.fnaf.nightshift.test.FnafMultiplayerGameTests", "com.fnaf.nightshift.test.FnafDoorGameTests"]
+	},
+	"depends": {
+		"fnaf_night_shift": "*",
+		"fabric-gametest-api-v1": "*"
+	}
+}

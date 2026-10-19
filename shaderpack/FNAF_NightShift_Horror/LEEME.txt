@@ -1,0 +1,37 @@
+FNAF: Night Shift - Horror
+Paquete de shaders original creado para FNAF: Night Shift (Iris 1.6+ u OptiFine).
+Instalación: copiá el .zip en la carpeta "shaderpacks" de .minecraft y elegilo en
+Opciones > Video > Paquetes de shaders.
+
+El perfil predeterminado es TERROR: interiores casi negros sin fuentes de luz,
+luz local cálida con caída pronunciada, sombras frías y niebla absorbente.
+La linterna usa los bloques de luz reales del mod (alcance de 14 bloques).
+El shader conserva esa luz y la de las lámparas; una linterna apagada no ilumina.
+No incluye exposición automática que vuelva visibles los pasillos oscuros.
+
+Perfiles en las opciones del shader:
+- Terror: equilibrio recomendado, pensado para explorar usando la linterna.
+- Pesadilla: luz ambiental aún menor, niebla y oscuridad periférica más intensas.
+- Más visible: permite distinguir algo más el entorno manteniendo el ambiente.
+
+En "Oscuridad y linterna" podés ajustar luz ambiental, caída de luz local,
+intensidad de lámparas/linterna y contraste. En "Atmósfera" están la niebla,
+el grano, la viñeta, la aberración cromática y el parpadeo suave.
+El grano no aclara los negros. Los colores de cables y señalización se conservan
+mejor cuando están iluminados.
+
+Si reemplazás el ZIP con el juego abierto, volvé a seleccionar el shader para
+recargarlo. Si tenías opciones guardadas, seleccioná Terror o restablecelas
+para aplicar los nuevos valores predeterminados.
+Con este paquete activo, el filtro de terror interno del mod se desactiva solo.
+
+Materiales del rework:
+- El programa de terreno lee mapas LabPBR *_n.png y *_s.png del mod.
+- Normal RG y oclusión B; acabado en R, metal/F0 en G y emisión en A.
+- Rugosidad alta en tela/hormigón; menor en vidrio, metal y sectores húmedos.
+- La opción "Relieve y acabado de materiales" permite desactivar esa respuesta.
+- Los reflejos son locales y discretos, guiados por la luz del mundo; no hay
+  reflejos de pantalla, parallax ni rebote de luz coloreada.
+- Los animatrónicos usan albedo y las máscaras luminosas nativas de GeckoLib.
+  No se publican mapas de normales para entidades sin un consumidor verificado.
+- Sin shaders se usa el albedo rediseñado y sigue funcionando el brillo de ojos.

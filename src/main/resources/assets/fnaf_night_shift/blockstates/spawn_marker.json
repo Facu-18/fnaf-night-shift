@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "animatronic=any": {
+      "model": "fnaf_night_shift:block/spawn_marker_any"
+    },
+    "animatronic=bonnie": {
+      "model": "fnaf_night_shift:block/spawn_marker_bonnie"
+    },
+    "animatronic=chica": {
+      "model": "fnaf_night_shift:block/spawn_marker_chica"
+    },
+    "animatronic=foxy": {
+      "model": "fnaf_night_shift:block/spawn_marker_foxy"
+    },
+    "animatronic=freddy": {
+      "model": "fnaf_night_shift:block/spawn_marker_freddy"
+    }
+  }
+}

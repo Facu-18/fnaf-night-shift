@@ -1,0 +1,240 @@
+{
+  "variants": {
+    "facing=north,half=bottom,open=false,powered=false,waterlogged=false": {
+      "model": "fnaf_night_shift:block/vent_grate_bottom"
+    },
+    "facing=north,half=bottom,open=false,powered=true,waterlogged=false": {
+      "model": "fnaf_night_shift:block/vent_grate_bottom"
+    },
+    "facing=north,half=bottom,open=false,powered=false,waterlogged=true": {
+      "model": "fnaf_night_shift:block/vent_grate_bottom"
+    },
+    "facing=north,half=bottom,open=false,powered=true,waterlogged=true": {
+      "model": "fnaf_night_shift:block/vent_grate_bottom"
+    },
+    "facing=north,half=bottom,open=true,powered=false,waterlogged=false": {
+      "model": "fnaf_night_shift:block/vent_grate_open"
+    },
+    "facing=north,half=bottom,open=true,powered=true,waterlogged=false": {
+      "model": "fnaf_night_shift:block/vent_grate_open"
+    },
+    "facing=north,half=bottom,open=true,powered=false,waterlogged=true": {
+      "model": "fnaf_night_shift:block/vent_grate_open"
+    },
+    "facing=north,half=bottom,open=true,powered=true,waterlogged=true": {
+      "model": "fnaf_night_shift:block/vent_grate_open"
+    },
+    "facing=north,half=top,open=false,powered=false,waterlogged=false": {
+      "model": "fnaf_night_shift:block/vent_grate_top"
+    },
+    "facing=north,half=top,open=false,powered=true,waterlogged=false": {
+      "model": "fnaf_night_shift:block/vent_grate_top"
+    },
+    "facing=north,half=top,open=false,powered=false,waterlogged=true": {
+      "model": "fnaf_night_shift:block/vent_grate_top"
+    },
+    "facing=north,half=top,open=false,powered=true,waterlogged=true": {
+      "model": "fnaf_night_shift:block/vent_grate_top"
+    },
+    "facing=north,half=top,open=true,powered=false,waterlogged=false": {
+      "model": "fnaf_night_shift:block/vent_grate_open",
+      "x": 180,
+      "y": 180
+    },
+    "facing=north,half=top,open=true,powered=true,waterlogged=false": {
+      "model": "fnaf_night_shift:block/vent_grate_open",
+      "x": 180,
+      "y": 180
+    },
+    "facing=north,half=top,open=true,powered=false,waterlogged=true": {
+      "model": "fnaf_night_shift:block/vent_grate_open",
+      "x": 180,
+      "y": 180
+    },
+    "facing=north,half=top,open=true,powered=true,waterlogged=true": {
+      "model": "fnaf_night_shift:block/vent_grate_open",
+      "x": 180,
+      "y": 180
+    },
+    "facing=east,half=bottom,open=false,powered=false,waterlogged=false": {
+      "model": "fnaf_night_shift:block/vent_grate_bottom"
+    },
+    "facing=east,half=bottom,open=false,powered=true,waterlogged=false": {
+      "model": "fnaf_night_shift:block/vent_grate_bottom"
+    },
+    "facing=east,half=bottom,open=false,powered=false,waterlogged=true": {
+      "model": "fnaf_night_shift:block/vent_grate_bottom"
+    },
+    "facing=east,half=bottom,open=false,powered=true,waterlogged=true": {
+      "model": "fnaf_night_shift:block/vent_grate_bottom"
+    },
+    "facing=east,half=bottom,open=true,powered=false,waterlogged=false": {
+      "model": "fnaf_night_shift:block/vent_grate_open",
+      "y": 90
+    },
+    "facing=east,half=bottom,open=true,powered=true,waterlogged=false": {
+      "model": "fnaf_night_shift:block/vent_grate_open",
+      "y": 90
+    },
+    "facing=east,half=bottom,open=true,powered=false,waterlogged=true": {
+      "model": "fnaf_night_shift:block/vent_grate_open",
+      "y": 90
+    },
+    "facing=east,half=bottom,open=true,powered=true,waterlogged=true": {
+      "model": "fnaf_night_shift:block/vent_grate_open",
+      "y": 90
+    },
+    "facing=east,half=top,open=false,powered=false,waterlogged=false": {
+      "model": "fnaf_night_shift:block/vent_grate_top"
+    },
+    "facing=east,half=top,open=false,powered=true,waterlogged=false": {
+      "model": "fnaf_night_shift:block/vent_grate_top"
+    },
+    "facing=east,half=top,open=false,powered=false,waterlogged=true": {
+      "model": "fnaf_night_shift:block/vent_grate_top"
+    },
+    "facing=east,half=top,open=false,powered=true,waterlogged=true": {
+      "model": "fnaf_night_shift:block/vent_grate_top"
+    },
+    "facing=east,half=top,open=true,powered=false,waterlogged=false": {
+      "model": "fnaf_night_shift:block/vent_grate_open",
+      "y": 270,
+      "x": 180
+    },
+    "facing=east,half=top,open=true,powered=true,waterlogged=false": {
+      "model": "fnaf_night_shift:block/vent_grate_open",
+      "y": 270,
+      "x": 180
+    },
+    "facing=east,half=top,open=true,powered=false,waterlogged=true": {
+      "model": "fnaf_night_shift:block/vent_grate_open",
+      "y": 270,
+      "x": 180
+    },
+    "facing=east,half=top,open=true,powered=true,waterlogged=true": {
+      "model": "fnaf_night_shift:block/vent_grate_open",
+      "y": 270,
+      "x": 180
+    },
+    "facing=south,half=bottom,open=false,powered=false,waterlogged=false": {
+      "model": "fnaf_night_shift:block/vent_grate_bottom"
+    },
+    "facing=south,half=bottom,open=false,powered=true,waterlogged=false": {
+      "model": "fnaf_night_shift:block/vent_grate_bottom"
+    },
+    "facing=south,half=bottom,open=false,powered=false,waterlogged=true": {
+      "model": "fnaf_night_shift:block/vent_grate_bottom"
+    },
+    "facing=south,half=bottom,open=false,powered=true,waterlogged=true": {
+      "model": "fnaf_night_shift:block/vent_grate_bottom"
+    },
+    "facing=south,half=bottom,open=true,powered=false,waterlogged=false": {
+      "model": "fnaf_night_shift:block/vent_grate_open",
+      "y": 180
+    },
+    "facing=south,half=bottom,open=true,powered=true,waterlogged=false": {
+      "model": "fnaf_night_shift:block/vent_grate_open",
+      "y": 180
+    },
+    "facing=south,half=bottom,open=true,powered=false,waterlogged=true": {
+      "model": "fnaf_night_shift:block/vent_grate_open",
+      "y": 180
+    },
+    "facing=south,half=bottom,open=true,powered=true,waterlogged=true": {
+      "model": "fnaf_night_shift:block/vent_grate_open",
+      "y": 180
+    },
+    "facing=south,half=top,open=false,powered=false,waterlogged=false": {
+      "model": "fnaf_night_shift:block/vent_grate_top"
+    },
+    "facing=south,half=top,open=false,powered=true,waterlogged=false": {
+      "model": "fnaf_night_shift:block/vent_grate_top"
+    },
+    "facing=south,half=top,open=false,powered=false,waterlogged=true": {
+      "model": "fnaf_night_shift:block/vent_grate_top"
+    },
+    "facing=south,half=top,open=false,powered=true,waterlogged=true": {
+      "model": "fnaf_night_shift:block/vent_grate_top"
+    },
+    "facing=south,half=top,open=true,powered=false,waterlogged=false": {
+      "model": "fnaf_night_shift:block/vent_grate_open",
+      "y": 0,
+      "x": 180
+    },
+    "facing=south,half=top,open=true,powered=true,waterlogged=false": {
+      "model": "fnaf_night_shift:block/vent_grate_open",
+      "y": 0,
+      "x": 180
+    },
+    "facing=south,half=top,open=true,powered=false,waterlogged=true": {
+      "model": "fnaf_night_shift:block/vent_grate_open",
+      "y": 0,
+      "x": 180
+    },
+    "facing=south,half=top,open=true,powered=true,waterlogged=true": {
+      "model": "fnaf_night_shift:block/vent_grate_open",
+      "y": 0,
+      "x": 180
+    },
+    "facing=west,half=bottom,open=false,powered=false,waterlogged=false": {
+      "model": "fnaf_night_shift:block/vent_grate_bottom"
+    },
+    "facing=west,half=bottom,open=false,powered=true,waterlogged=false": {
+      "model": "fnaf_night_shift:block/vent_grate_bottom"
+    },
+    "facing=west,half=bottom,open=false,powered=false,waterlogged=true": {
+      "model": "fnaf_night_shift:block/vent_grate_bottom"
+    },
+    "facing=west,half=bottom,open=false,powered=true,waterlogged=true": {
+      "model": "fnaf_night_shift:block/vent_grate_bottom"
+    },
+    "facing=west,half=bottom,open=true,powered=false,waterlogged=false": {
+      "model": "fnaf_night_shift:block/vent_grate_open",
+      "y": 270
+    },
+    "facing=west,half=bottom,open=true,powered=true,waterlogged=false": {
+      "model": "fnaf_night_shift:block/vent_grate_open",
+      "y": 270
+    },
+    "facing=west,half=bottom,open=true,powered=false,waterlogged=true": {
+      "model": "fnaf_night_shift:block/vent_grate_open",
+      "y": 270
+    },
+    "facing=west,half=bottom,open=true,powered=true,waterlogged=true": {
+      "model": "fnaf_night_shift:block/vent_grate_open",
+      "y": 270
+    },
+    "facing=west,half=top,open=false,powered=false,waterlogged=false": {
+      "model": "fnaf_night_shift:block/vent_grate_top"
+    },
+    "facing=west,half=top,open=false,powered=true,waterlogged=false": {
+      "model": "fnaf_night_shift:block/vent_grate_top"
+    },
+    "facing=west,half=top,open=false,powered=false,waterlogged=true": {
+      "model": "fnaf_night_shift:block/vent_grate_top"
+    },
+    "facing=west,half=top,open=false,powered=true,waterlogged=true": {
+      "model": "fnaf_night_shift:block/vent_grate_top"
+    },
+    "facing=west,half=top,open=true,powered=false,waterlogged=false": {
+      "model": "fnaf_night_shift:block/vent_grate_open",
+      "y": 90,
+      "x": 180
+    },
+    "facing=west,half=top,open=true,powered=true,waterlogged=false": {
+      "model": "fnaf_night_shift:block/vent_grate_open",
+      "y": 90,
+      "x": 180
+    },
+    "facing=west,half=top,open=true,powered=false,waterlogged=true": {
+      "model": "fnaf_night_shift:block/vent_grate_open",
+      "y": 90,
+      "x": 180
+    },
+    "facing=west,half=top,open=true,powered=true,waterlogged=true": {
+      "model": "fnaf_night_shift:block/vent_grate_open",
+      "y": 90,
+      "x": 180
+    }
+  }
+}

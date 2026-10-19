@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "fnaf_night_shift:block/machine_top",
+    "front": "fnaf_night_shift:block/station_security_front_broken",
+    "side": "fnaf_night_shift:block/machine_side"
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "ambient.hum": {
+    "subtitle": "subtitles.fnaf_night_shift.ambient.hum",
+    "sounds": [
+      "fnaf_night_shift:ambient/hum"
+    ]
+  },
+  "ambient.distant": {
+    "subtitle": "subtitles.fnaf_night_shift.ambient.distant",
+    "sounds": [
+      "fnaf_night_shift:ambient/distant1",
+      "fnaf_night_shift:ambient/distant2"
+    ]
+  },
+  "step.metal": {
+    "subtitle": "subtitles.fnaf_night_shift.step.metal",
+    "sounds": [
+      "fnaf_night_shift:step/metal1",
+      "fnaf_night_shift:step/metal2",
+      "fnaf_night_shift:step/metal3"
+    ]
+  },
+  "mech.servo": {
+    "subtitle": "subtitles.fnaf_night_shift.mech.servo",
+    "sounds": [
+      "fnaf_night_shift:mech/servo1",
+      "fnaf_night_shift:mech/servo2"
+    ]
+  },
+  "door.slam": {
+    "subtitle": "subtitles.fnaf_night_shift.door.slam",
+    "sounds": [
+      "fnaf_night_shift:door/slam"
+    ]
+  },
+  "repair.ratchet": {
+    "subtitle": "subtitles.fnaf_night_shift.repair.ratchet",
+    "sounds": [
+      "fnaf_night_shift:repair/ratchet1",
+      "fnaf_night_shift:repair/ratchet2"
+    ]
+  },
+  "repair.spark": {
+    "subtitle": "subtitles.fnaf_night_shift.repair.spark",
+    "sounds": [
+      "fnaf_night_shift:repair/spark1",
+      "fnaf_night_shift:repair/spark2"
+    ]
+  },
+  "repair.success": {
+    "subtitle": "subtitles.fnaf_night_shift.repair.success",
+    "sounds": [
+      "fnaf_night_shift:repair/success"
+    ]
+  },
+  "repair.fail": {
+    "subtitle": "subtitles.fnaf_night_shift.repair.fail",
+    "sounds": [
+      "fnaf_night_shift:repair/fail"
+    ]
+  },
+  "alert.danger": {
+    "subtitle": "subtitles.fnaf_night_shift.alert.danger",
+    "sounds": [
+      "fnaf_night_shift:alert/danger"
+    ]
+  },
+  "alert.night_start": {
+    "subtitle": "subtitles.fnaf_night_shift.alert.night_start",
+    "sounds": [
+      "fnaf_night_shift:alert/night_start"
+    ]
+  },
+  "alert.six_am": {
+    "subtitle": "subtitles.fnaf_night_shift.alert.six_am",
+    "sounds": [
+      "fnaf_night_shift:alert/six_am"
+    ]
+  },
+  "alert.power_out": {
+    "subtitle": "subtitles.fnaf_night_shift.alert.power_out",
+    "sounds": [
+      "fnaf_night_shift:alert/power_out"
+    ]
+  },
+  "flashlight.click": {
+    "subtitle": "subtitles.fnaf_night_shift.flashlight.click",
+    "sounds": [
+      "fnaf_night_shift:flashlight/click"
+    ]
+  },
+  "flashlight.dead": {
+    "subtitle": "subtitles.fnaf_night_shift.flashlight.dead",
+    "sounds": [
+      "fnaf_night_shift:flashlight/dead"
+    ]
+  },
+  "entity.bonnie.idle": {
+    "subtitle": "subtitles.fnaf_night_shift.entity.bonnie.idle",
+    "sounds": [
+      "fnaf_night_shift:entity/bonnie/idle"
+    ]
+  },
+  "entity.chica.idle": {
+    "subtitle": "subtitles.fnaf_night_shift.entity.chica.idle",
+    "sounds": [
+      "fnaf_night_shift:entity/chica/idle"
+    ]
+  },
+  "entity.foxy.run": {
+    "subtitle": "subtitles.fnaf_night_shift.entity.foxy.run",
+    "sounds": [
+      "fnaf_night_shift:entity/foxy/run"
+    ]
+  },
+  "entity.freddy.laugh": {
+    "subtitle": "subtitles.fnaf_night_shift.entity.freddy.laugh",
+    "sounds": [
+      "fnaf_night_shift:entity/freddy/laugh"
+    ]
+  },
+  "entity.golden_freddy.whisper": {
+    "subtitle": "subtitles.fnaf_night_shift.entity.golden_freddy.whisper",
+    "sounds": [
+      "fnaf_night_shift:entity/golden_freddy/whisper"
+    ]
+  },
+  "entity.animatronic.hurt": {
+    "subtitle": "subtitles.fnaf_night_shift.entity.animatronic.hurt",
+    "sounds": [
+      "fnaf_night_shift:entity/animatronic/hurt"
+    ]
+  },
+  "entity.animatronic.jumpscare": {
+    "subtitle": "subtitles.fnaf_night_shift.entity.animatronic.jumpscare",
+    "sounds": [
+      "fnaf_night_shift:entity/animatronic/jumpscare"
+    ]
+  },
+  "music.box": {
+    "subtitle": "subtitles.fnaf_night_shift.music.box",
+    "sounds": [
+      "fnaf_night_shift:music/box"
+    ]
+  },
+  "block.crate.open": {
+    "subtitle": "subtitles.fnaf_night_shift.block.crate.open",
+    "sounds": [
+      "fnaf_night_shift:block/crate/open"
+    ]
+  },
+  "camera.switch": {
+    "subtitle": "subtitles.fnaf_night_shift.camera.switch",
+    "sounds": [
+      "fnaf_night_shift:camera/switch"
+    ]
+  },
+  "camera.static": {
+    "subtitle": "subtitles.fnaf_night_shift.camera.static",
+    "sounds": [
+      "fnaf_night_shift:camera/static"
+    ]
+  },
+  "vent.warning": {
+    "subtitle": "subtitles.fnaf_night_shift.vent.warning",
+    "sounds": [
+      "fnaf_night_shift:vent/warning"
+    ]
+  },
+  "vent.fail": {
+    "subtitle": "subtitles.fnaf_night_shift.vent.fail",
+    "sounds": [
+      "fnaf_night_shift:vent/fail"
+    ]
+  },
+  "vent.reset": {
+    "subtitle": "subtitles.fnaf_night_shift.vent.reset",
+    "sounds": [
+      "fnaf_night_shift:vent/reset"
+    ]
+  },
+  "player.heartbeat": {
+    "subtitle": "subtitles.fnaf_night_shift.player.heartbeat",
+    "sounds": [
+      "fnaf_night_shift:player/heartbeat"
+    ]
+  },
+  "player.breath": {
+    "subtitle": "subtitles.fnaf_night_shift.player.breath",
+    "sounds": [
+      "fnaf_night_shift:player/breath"
+    ]
+  },
+  "door.bang": {
+    "subtitle": "subtitles.fnaf_night_shift.door.bang",
+    "sounds": [
+      "fnaf_night_shift:door/bang"
+    ]
+  },
+  "entity.animatronic.lurk": {
+    "subtitle": "subtitles.fnaf_night_shift.entity.animatronic.lurk",
+    "sounds": [
+      "fnaf_night_shift:entity/animatronic/lurk"
+    ]
+  },
+  "alert.malfunction": {
+    "subtitle": "subtitles.fnaf_night_shift.alert.malfunction",
+    "sounds": [
+      "fnaf_night_shift:alert/malfunction"
+    ]
+  },
+  "ambient.static": {
+    "subtitle": "subtitles.fnaf_night_shift.ambient.static",
+    "sounds": [
+      "fnaf_night_shift:ambient/static"
+    ]
+  },
+  "ambient.fnaf": {
+    "subtitle": "subtitles.fnaf_night_shift.ambient.fnaf",
+    "sounds": [
+      "fnaf_night_shift:ambient/fnaf_fallback"
+    ]
+  },
+  "entity.foxy.jumpscare": {
+    "subtitle": "subtitles.fnaf_night_shift.entity.foxy.jumpscare",
+    "sounds": [
+      "fnaf_night_shift:entity/foxy/jumpscare_fallback"
+    ]
+  },
+  "entity.golden_freddy.jumpscare": {
+    "subtitle": "subtitles.fnaf_night_shift.entity.golden_freddy.jumpscare",
+    "sounds": [
+      "fnaf_night_shift:entity/golden_freddy/jumpscare_fallback"
+    ]
+  },
+  "block.locker.open": {
+    "subtitle": "subtitles.fnaf_night_shift.block.locker.open",
+    "sounds": [
+      "fnaf_night_shift:block/locker/open"
+    ]
+  }
+}

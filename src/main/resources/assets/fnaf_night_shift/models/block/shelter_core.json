@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "fnaf_night_shift:block/shelter_core_top",
+    "bottom": "fnaf_night_shift:block/metal_plating",
+    "side": "fnaf_night_shift:block/shelter_core_side"
+  }
+}

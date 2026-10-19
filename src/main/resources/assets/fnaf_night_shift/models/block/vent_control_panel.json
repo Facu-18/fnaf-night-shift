@@ -1,0 +1,72 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "fnaf_night_shift:block/vent_control_panel",
+    "front": "fnaf_night_shift:block/vent_control_panel",
+    "side": "fnaf_night_shift:block/machine_side"
+  },
+  "elements": [
+    {
+      "from": [
+        3,
+        3,
+        14
+      ],
+      "to": [
+        13,
+        13,
+        16
+      ],
+      "faces": {
+        "north": {
+          "texture": "#front",
+          "uv": [
+            3,
+            3,
+            13,
+            13
+          ]
+        },
+        "south": {
+          "texture": "#side"
+        },
+        "east": {
+          "texture": "#side",
+          "uv": [
+            0,
+            3,
+            2,
+            13
+          ]
+        },
+        "west": {
+          "texture": "#side",
+          "uv": [
+            0,
+            3,
+            2,
+            13
+          ]
+        },
+        "up": {
+          "texture": "#side",
+          "uv": [
+            3,
+            0,
+            13,
+            2
+          ]
+        },
+        "down": {
+          "texture": "#side",
+          "uv": [
+            3,
+            0,
+            13,
+            2
+          ]
+        }
+      }
+    }
+  ]
+}

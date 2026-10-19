@@ -1,0 +1,12 @@
+.gradle/
+build/
+out/
+run/
+*.iml
+.idea/
+.vscode/
+bin/
+classes/
+run-shaders/
+run-essential/
+dist/

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "looted=false": {
+      "model": "fnaf_night_shift:block/supply_crate"
+    },
+    "looted=true": {
+      "model": "fnaf_night_shift:block/supply_crate_looted"
+    }
+  }
+}

@@ -1,0 +1,146 @@
+plugins {
+	id 'fabric-loom' version "${loom_version}"
+	id 'maven-publish'
+}
+
+version = project.mod_version
+group = project.maven_group
+
+base {
+	archivesName = project.archives_base_name
+}
+
+repositories {
+	maven {
+		name = 'GeckoLib'
+		url = 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/'
+		content {
+			includeGroup('software.bernie.geckolib')
+			includeGroup('com.eliotlash.mclib')
+		}
+	}
+}
+
+loom {
+	splitEnvironmentSourceSets()
+}
+
+// Pruebas automáticas (GameTest). No se incluyen en el .jar del mod.
+sourceSets {
+	gametest {
+		compileClasspath += main.compileClasspath + main.output
+		runtimeClasspath += main.runtimeClasspath + main.output
+	}
+	// Herramienta de capturas automáticas para revisar el renderizado (sólo desarrollo).
+	devclient {
+		compileClasspath += client.compileClasspath + client.output + main.output
+		runtimeClasspath += client.runtimeClasspath + client.output + main.output
+	}
+}
+
+loom {
+	mods {
+		"fnaf_night_shift" {
+			sourceSet sourceSets.main
+			sourceSet sourceSets.client
+		}
+		"fnaf_night_shift_tests" {
+			sourceSet sourceSets.gametest
+		}
+		"fnaf_night_shift_devclient" {
+			sourceSet sourceSets.devclient
+		}
+	}
+
+	runs {
+		materialReview {
+			client()
+			name "Material review (isolated test world)"
+			vmArg "-Dfnaf.materialReview=true"
+			programArgs "--quickPlaySingleplayer", "FNAF_Test"
+			runDir "build/material-game"
+			source sourceSets.devclient
+		}
+		// ./gradlew runGametest  -> servidor sin interfaz que ejecuta las pruebas y se cierra
+		gametest {
+			server()
+			name "Game Test"
+			vmArg "-Dfabric-api.gametest"
+			vmArg "-Dfabric-api.gametest.report-file=${project.layout.buildDirectory.get().asFile}/gametest-report.xml"
+			runDir "build/gametest"
+			source sourceSets.gametest
+		}
+		// ./gradlew runDevShots -> abre run/saves/FNAF_Test y guarda capturas en run/screenshots
+		devShots {
+			client()
+			name "Dev screenshots"
+			vmArg "-Dfnaf.devshots=true"
+			programArgs "--quickPlaySingleplayer", "FNAF_Test"
+			runDir "run"
+			source sourceSets.devclient
+		}
+		// Igual que devShots pero en run-shaders/ (Iris + Sodium + un paquete de shaders en sus carpetas)
+		devShotsShaders {
+			client()
+			name "Dev screenshots (shaders)"
+			vmArg "-Dfnaf.devshots=true"
+			programArgs "--quickPlaySingleplayer", "FNAF_Test"
+			runDir "run-shaders"
+			source sourceSets.devclient
+		}
+		// Igual que devShots pero en run-essential/ (con Essential en su carpeta mods)
+		devShotsEssential {
+			client()
+			name "Dev screenshots (Essential)"
+			vmArg "-Dfnaf.devshots=true"
+			programArgs "--quickPlaySingleplayer", "FNAF_Test"
+			runDir "run-essential"
+			source sourceSets.devclient
+		}
+	}
+}
+
+dependencies {
+	minecraft "com.mojang:minecraft:${project.minecraft_version}"
+	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
+	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
+	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+	modImplementation "software.bernie.geckolib:geckolib-fabric-1.20.1:${project.geckolib_version}"
+}
+
+processResources {
+	inputs.property "version", project.version
+
+	filesMatching("fabric.mod.json") {
+		expand "version": project.version
+	}
+	// Los sonidos de FNAF (propiedad de ScottGames) se pueden excluir para publicar el mod:
+	//   gradlew build -PnoFnafSounds
+	if (project.hasProperty('noFnafSounds')) {
+		exclude 'resourcepacks/fnaf_sounds/**'
+	}
+}
+
+tasks.withType(JavaCompile).configureEach {
+	it.options.release = 17
+	it.options.encoding = 'UTF-8'
+}
+
+java {
+	withSourcesJar()
+	sourceCompatibility = JavaVersion.VERSION_17
+	targetCompatibility = JavaVersion.VERSION_17
+}
+
+jar {
+	from("LICENSE") {
+		rename { "${it}_${project.base.archivesName.get()}" }
+	}
+}
+
+// Cada ejecución de las pruebas parte de un mundo limpio.
+tasks.matching { it.name == 'runGametest' }.configureEach {
+	doFirst {
+		delete file("build/gametest/world")
+	}
+}

@@ -1,0 +1,4 @@
+# Offline asset generation only; no new Minecraft runtime dependencies.
+Pillow>=10.1,<13
+numpy>=1.26,<3
+# Optional GPU shader validation: pip install PyOpenGL glfw

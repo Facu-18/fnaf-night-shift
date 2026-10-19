@@ -1,0 +1,94 @@
+{
+  "variants": {
+    "facing=north,stocked=false,tool=wrench": {
+      "model": "fnaf_night_shift:block/tool_locker_empty"
+    },
+    "facing=north,stocked=true,tool=wrench": {
+      "model": "fnaf_night_shift:block/tool_locker_wrench"
+    },
+    "facing=north,stocked=false,tool=screwdriver": {
+      "model": "fnaf_night_shift:block/tool_locker_empty"
+    },
+    "facing=north,stocked=true,tool=screwdriver": {
+      "model": "fnaf_night_shift:block/tool_locker_screwdriver"
+    },
+    "facing=north,stocked=false,tool=pliers": {
+      "model": "fnaf_night_shift:block/tool_locker_empty"
+    },
+    "facing=north,stocked=true,tool=pliers": {
+      "model": "fnaf_night_shift:block/tool_locker_pliers"
+    },
+    "facing=east,stocked=false,tool=wrench": {
+      "model": "fnaf_night_shift:block/tool_locker_empty",
+      "y": 90
+    },
+    "facing=east,stocked=true,tool=wrench": {
+      "model": "fnaf_night_shift:block/tool_locker_wrench",
+      "y": 90
+    },
+    "facing=east,stocked=false,tool=screwdriver": {
+      "model": "fnaf_night_shift:block/tool_locker_empty",
+      "y": 90
+    },
+    "facing=east,stocked=true,tool=screwdriver": {
+      "model": "fnaf_night_shift:block/tool_locker_screwdriver",
+      "y": 90
+    },
+    "facing=east,stocked=false,tool=pliers": {
+      "model": "fnaf_night_shift:block/tool_locker_empty",
+      "y": 90
+    },
+    "facing=east,stocked=true,tool=pliers": {
+      "model": "fnaf_night_shift:block/tool_locker_pliers",
+      "y": 90
+    },
+    "facing=south,stocked=false,tool=wrench": {
+      "model": "fnaf_night_shift:block/tool_locker_empty",
+      "y": 180
+    },
+    "facing=south,stocked=true,tool=wrench": {
+      "model": "fnaf_night_shift:block/tool_locker_wrench",
+      "y": 180
+    },
+    "facing=south,stocked=false,tool=screwdriver": {
+      "model": "fnaf_night_shift:block/tool_locker_empty",
+      "y": 180
+    },
+    "facing=south,stocked=true,tool=screwdriver": {
+      "model": "fnaf_night_shift:block/tool_locker_screwdriver",
+      "y": 180
+    },
+    "facing=south,stocked=false,tool=pliers": {
+      "model": "fnaf_night_shift:block/tool_locker_empty",
+      "y": 180
+    },
+    "facing=south,stocked=true,tool=pliers": {
+      "model": "fnaf_night_shift:block/tool_locker_pliers",
+      "y": 180
+    },
+    "facing=west,stocked=false,tool=wrench": {
+      "model": "fnaf_night_shift:block/tool_locker_empty",
+      "y": 270
+    },
+    "facing=west,stocked=true,tool=wrench": {
+      "model": "fnaf_night_shift:block/tool_locker_wrench",
+      "y": 270
+    },
+    "facing=west,stocked=false,tool=screwdriver": {
+      "model": "fnaf_night_shift:block/tool_locker_empty",
+      "y": 270
+    },
+    "facing=west,stocked=true,tool=screwdriver": {
+      "model": "fnaf_night_shift:block/tool_locker_screwdriver",
+      "y": 270
+    },
+    "facing=west,stocked=false,tool=pliers": {
+      "model": "fnaf_night_shift:block/tool_locker_empty",
+      "y": 270
+    },
+    "facing=west,stocked=true,tool=pliers": {
+      "model": "fnaf_night_shift:block/tool_locker_pliers",
+      "y": 270
+    }
+  }
+}

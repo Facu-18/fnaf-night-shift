@@ -1,0 +1,67 @@
+{
+  "parent": "minecraft:block/block",
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "fnaf_night_shift:block/emergency_light",
+    "front": "fnaf_night_shift:block/emergency_light",
+    "side": "fnaf_night_shift:block/machine_side"
+  },
+  "elements": [
+    {
+      "from": [
+        4,
+        5,
+        11
+      ],
+      "to": [
+        12,
+        11,
+        16
+      ],
+      "faces": {
+        "north": {
+          "texture": "#front"
+        },
+        "south": {
+          "texture": "#side"
+        },
+        "east": {
+          "texture": "#side",
+          "uv": [
+            0,
+            5,
+            5,
+            11
+          ]
+        },
+        "west": {
+          "texture": "#side",
+          "uv": [
+            0,
+            5,
+            5,
+            11
+          ]
+        },
+        "up": {
+          "texture": "#side",
+          "uv": [
+            4,
+            0,
+            12,
+            5
+          ]
+        },
+        "down": {
+          "texture": "#front",
+          "uv": [
+            4,
+            0,
+            12,
+            5
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+	"targets": [ "swap" ],
+	"passes": [
+		{
+			"name": "fnaf_horror",
+			"intarget": "minecraft:main",
+			"outtarget": "swap",
+			"auxtargets": [ { "name": "DepthSampler", "id": "minecraft:main:depth" } ],
+			"uniforms": [
+				{ "name": "Intensity", "values": [ 0.0 ] },
+				{ "name": "Blur", "values": [ 0.0 ] }
+			]
+		},
+		{ "name": "blit", "intarget": "swap", "outtarget": "minecraft:main" }
+	]
+}

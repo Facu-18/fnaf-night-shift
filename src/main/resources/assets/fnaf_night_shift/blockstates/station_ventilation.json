@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "broken=false,facing=north": {
+      "model": "fnaf_night_shift:block/station_ventilation"
+    },
+    "broken=true,facing=north": {
+      "model": "fnaf_night_shift:block/station_ventilation_broken"
+    },
+    "broken=false,facing=east": {
+      "model": "fnaf_night_shift:block/station_ventilation",
+      "y": 90
+    },
+    "broken=true,facing=east": {
+      "model": "fnaf_night_shift:block/station_ventilation_broken",
+      "y": 90
+    },
+    "broken=false,facing=south": {
+      "model": "fnaf_night_shift:block/station_ventilation",
+      "y": 180
+    },
+    "broken=true,facing=south": {
+      "model": "fnaf_night_shift:block/station_ventilation_broken",
+      "y": 180
+    },
+    "broken=false,facing=west": {
+      "model": "fnaf_night_shift:block/station_ventilation",
+      "y": 270
+    },
+    "broken=true,facing=west": {
+      "model": "fnaf_night_shift:block/station_ventilation_broken",
+      "y": 270
+    }
+  }
+}

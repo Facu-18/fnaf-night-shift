@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fnaf_night_shift:block/camera_monitor"
+    },
+    "facing=east": {
+      "model": "fnaf_night_shift:block/camera_monitor",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fnaf_night_shift:block/camera_monitor",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fnaf_night_shift:block/camera_monitor",
+      "y": 270
+    }
+  }
+}

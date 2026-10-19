@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "fnaf_night_shift:item/flashlight"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "fnaf_night_shift:on": 1
+      },
+      "model": "fnaf_night_shift:item/flashlight_on"
+    }
+  ]
+}
